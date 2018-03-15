@@ -1,0 +1,23 @@
+UI
+	Main Menu
+	Rules
+	Table
+Important Classes
+	DetermineHand - Classifys your hand if there is one ie. Flush, Straight, High Card, ext
+	Compare Class - Compares two players hands to see who has the higher hand
+	SplitPot Class - Handels when the pot gets split
+Main Method
+Pre-Flop
+Flop
+Turn
+River
+
+Player class methods that need to be done
+
+Bet - allows player to bet x amount of chips as long as x is greater than the current bet ie. Standard poker rules require that raises must be at least equal to the amount of the previous bet or raise. For example, if an opponent bets $5, a player must raise by at least another $5, and they may not raise by only $2. If a player re-raises a bet of $5 by $7 (for a total of $12), the next re-raise would have to be by at least another $7 (the previous raise) more than the $12 (for a total of at least $19). The primary purpose of the minimum raise rule is to avoid game delays caused by "nuisance" raises (small raises of large bets, such as an extra $1 over a current bet of $50, that have little effect on the action but take time as all others must call). This rule is overridden by table stakes rules, so that a player may in fact raise a $5 bet by $2 if that $2 is his entire remaining stake.
+Call - Matches previous bet/raise
+Fold - Folds the hand 
+All in - Raises to full chip amount of player
+
+TODO
+Create Players and load up their hands to test if that is working right
