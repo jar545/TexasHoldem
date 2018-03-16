@@ -30,7 +30,7 @@ public class Analysis {
         
     }
         
-    //Sorts a hand of cards by rank in incresing order
+    //Sorts a hand of card by rank in incresing order
     private void sortByRank(Card[] hand) {
 
         for (int j = 0; j < hand.length - 1; j++) {
